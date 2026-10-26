@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+<g id="Quiz 3">
+<g id="Frame 2147228795">
+<g id="Frame 2147228789">
+<g id="Frame 2147228788">
+<g id="Frame" clip-path="url(#clip0_0_1)">
+<g id="Group">
+<path id="Vector" d="M11.5513 48.5352H1.46484V38.4487H11.5513V48.5352ZM35.0864 11.5515H14.9134V1.46499H35.0864V11.5515Z" fill="black" />
+<path id="Vector_2" d="M24.9994 35.0864L17.8672 27.9542L24.9994 20.822L32.1316 27.9542L24.9994 35.0864Z" fill="black" />
+<g id="Clip path group">
+<mask id="mask0_0_1" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+<g id="a">
+<path id="Vector_3" d="M0 0.000144958H49.9999V50H0V0.000144958Z" fill="white" />
+</g>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Group_2">
+<path id="Vector_4" d="M48.5357 43.4919C48.5357 46.2772 46.2778 48.5352 43.4925 48.5352C40.7072 48.5352 38.4492 46.2772 38.4492 43.4919C38.4492 40.7067 40.7072 38.4486 43.4925 38.4486C46.2777 38.4486 48.5357 40.7067 48.5357 43.4919Z" fill="black" />
+<path id="Vector_5" d="M11.5513 48.5352H1.46484V38.4487H11.5513V48.5352ZM35.0864 11.5515H14.9134V1.46499H35.0864V11.5515Z" stroke="black" stroke-width="2.5" stroke-miterlimit="10" />
+<path id="Vector_6" d="M24.9994 35.0865L17.8672 27.9543L24.9994 20.8221L32.1316 27.9543L24.9994 35.0865Z" stroke="black" stroke-width="2.5" stroke-miterlimit="10" />
+<path id="Vector_7" d="M25 20.8221V11.5515" stroke="black" stroke-width="2.5" stroke-miterlimit="10" />
+<path id="Vector_8" d="M17.8674 27.9543H6.50781V38.4486" stroke="black" stroke-width="2.5" stroke-miterlimit="10" />
+<path id="Vector_9" d="M32.1328 27.9543H43.4924V38.4486" stroke="black" stroke-width="2.5" stroke-miterlimit="10" />
+<path id="Vector_10" d="M48.5357 43.4919C48.5357 46.2772 46.2778 48.5352 43.4925 48.5352C40.7072 48.5352 38.4492 46.2772 38.4492 43.4919C38.4492 40.7067 40.7072 38.4486 43.4925 38.4486C46.2777 38.4486 48.5357 40.7067 48.5357 43.4919Z" stroke="black" stroke-width="2.5" stroke-miterlimit="10" />
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="25" y1="-25" x2="25" y2="74" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D5E2FF" />
+<stop offset="1" stop-color="#FFE6BD" />
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="50" height="50" fill="white" />
+</clipPath>
+</defs>
+</svg>

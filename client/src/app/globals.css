@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --navy: #0f172a;
+  --blue: #2563eb;
+  --orange: #f59e0b;
+  --muted: #636363;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: #0f172a;
+  --color-brand: #2563eb;
+  --color-accent: #f59e0b;
+  --font-sans: var(--font-poppins);
+  --font-display: var(--font-quicksand);
+  --font-inter: var(--font-inter);
+  /* 365-style admin layout: sidebar is docked only from 1440px up. */
+  --breakpoint-desk: 90rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes marquee-up {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+@keyframes marquee-ltr {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -14px, 0);
+  }
+}
+
+@keyframes float-y-slow {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-marquee-up {
+  animation: marquee-up 32s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-up-slow {
+  animation: marquee-up 42s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-ltr {
+  animation: marquee-ltr 40s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-ltr-slow {
+  animation: marquee-ltr 48s linear infinite;
+  will-change: transform;
+}
+
+.animate-float-y {
+  animation: float-y 5.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-float-y-delayed {
+  animation: float-y-slow 7.2s ease-in-out infinite;
+  animation-delay: 0.8s;
+  will-change: transform;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+.hero-column-mask {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 8%,
+    black 72%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 8%,
+    black 72%,
+    transparent 100%
+  );
+}
+
+.stories-edge-mask {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+.logos-edge-mask {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 12%,
+    black 88%,
+    transparent 100%
+  );
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-marquee-up,
+  .animate-marquee-up-slow,
+  .animate-marquee-ltr,
+  .animate-marquee-ltr-slow,
+  .animate-float-y,
+  .animate-float-y-delayed,
+  .animate-fade-up {
+    animation: none !important;
+  }
+}
+
+body:has(.course-notes-page),
+body:has(.study-kit-page) {
+  background-color: #0f172a;
+}
+
+body:has(.career-quiz-page) {
+  background-color: #fff;
+}
+
+body:has(.career-quiz-page) > header,
+body:has(.career-quiz-page) > footer {
+  display: none;
+}

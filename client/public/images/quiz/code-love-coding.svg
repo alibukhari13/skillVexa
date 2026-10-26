@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+<g id="Quiz 3">
+<g id="Frame 2147228791">
+<g id="Frame 2147228789">
+<g id="Frame 2147228788">
+<g id="Frame" clip-path="url(#clip0_0_1)">
+<g id="Group">
+<g id="Clip path group">
+<mask id="mask0_0_1" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+<g id="a">
+<path id="Vector" d="M0 0.000144958H49.9999V50H0V0.000144958Z" fill="white" />
+</g>
+</mask>
+<g mask="url(#mask0_0_1)">
+<g id="Group_2">
+<path id="Vector_2" d="M36.7191 25C36.7191 23.9163 36.5235 22.8867 36.2468 21.8897L39.1511 20.213L36.2214 15.1386L33.3486 16.7973C31.8835 15.3064 30.0134 14.239 27.93 13.6974V10.3516H22.0707V13.6974C19.9873 14.239 18.1172 15.3064 16.6521 16.7973L13.7793 15.1386L10.8496 20.213L13.7539 21.8897C13.4772 22.8867 13.2816 23.9163 13.2816 25C13.2816 26.0838 13.4772 27.1134 13.7539 28.1104L10.8496 29.787L13.7793 34.8614L16.6521 33.2028C18.1172 34.6937 19.9873 35.761 22.0707 36.3026V39.6484H27.93V36.3026C30.0134 35.761 31.8835 34.6937 33.3486 33.2028L36.2214 34.8614L39.1511 29.787L36.2468 28.1104C36.5235 27.1134 36.7191 26.0838 36.7191 25Z" stroke="#0F172A" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_3" d="M25 30.8594C21.7684 30.8594 19.1406 28.2316 19.1406 25C19.1406 21.7685 21.7684 19.1407 25 19.1407C28.2315 19.1407 30.8593 21.7685 30.8593 25C30.8593 28.2316 28.2315 30.8594 25 30.8594Z" stroke="#0F172A" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_4" d="M3.27246 33.7891C2.17002 31.0736 1.46484 28.1065 1.46484 25C1.46484 12.0768 12.0767 1.46494 24.9999 1.46494C32.4023 1.46494 39.346 5.12284 43.6443 10.4989" stroke="#0F172A" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_5" d="M46.7273 16.211C47.8298 18.9265 48.5349 21.8936 48.5349 25.0001C48.5349 37.9233 37.923 48.5352 24.9998 48.5352C17.5975 48.5352 10.6538 44.8773 6.35547 39.5012" stroke="#0F172A" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_6" d="M41.5729 4.28408L43.6445 10.4989L37.4297 8.42723" stroke="#0F172A" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_7" d="M12.5703 41.5729L6.35547 39.5013L8.42704 45.7161" stroke="#0F172A" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="25" y1="-25" x2="25" y2="74" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D5E2FF" />
+<stop offset="1" stop-color="#FFE6BD" />
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="50" height="50" fill="white" />
+</clipPath>
+</defs>
+</svg>
